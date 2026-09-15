@@ -86,7 +86,6 @@
 }
 
 .Containerthreeline{
-    background-color: blue;
     width: 50vw;
 }
 
@@ -94,6 +93,23 @@
     .x{
         display: none;
     }
+    .threeline{
+        display: none;
+        
+    }
+    
+}
+
+.threeline{
+    font-size: 50px;
+    margin-left: 190px;
+    cursor: pointer;
+}
+
+.x{
+    font-size: 40px;
+    margin-left: 190px;
+    cursor: pointer;
 }
 
 @media (max-width: 650px) {
@@ -106,9 +122,11 @@
     .linkedIn{
         display: none;
     }
-    .x{
-        color: red;
-    }
-
 }
+
+/* .theMenuContainer{
+    display: flex;
+    margin-left: 40px;
+    gap: ;
+} */
 
