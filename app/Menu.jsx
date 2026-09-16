@@ -14,8 +14,10 @@ export default function Menu() {
                     </div>
                 </div>
                 <div className={s.Containerthreeline}>   
-                    
-                    <div className={s.threeline} onClick={() => settoggle(!toggle)}>{toggle ?  null : <div>≡</div>}</div>
+                    <div className={s.xThreeline}>
+                        <div className={s.threeline} onClick={() => settoggle(!toggle)}>{toggle ?  null : <div>≡</div>}</div>
+                        <div className={s.x} onClick={() => settoggle(!toggle)}>{toggle ? <div>X</div>: null}</div>
+                    </div>
                     {toggle ? 
                         <div className={s.theMenuContainer}>    
                             <div className={s.MiddleContainer}>
@@ -33,8 +35,8 @@ export default function Menu() {
                             </div>
                         </div>: null
                     }
-                    <div className={s.x} onClick={() => settoggle(!toggle)}>{toggle ? <div>X</div>: null}</div>
-
+                    
+                   
 
 
                 </div>
