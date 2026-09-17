@@ -183,6 +183,7 @@
     .lContainer {
         margin-left: -15;
         width: 100%;
+        width: 300px;
     }
 
     .linkedIn a {
@@ -190,6 +191,7 @@
         text-align: center;
         width: 100%;
         margin-top: 50px;
+        
         
     }
     
@@ -199,6 +201,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 2;
 }
 .About{
    margin-top: 30px;

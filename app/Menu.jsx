@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import s from './Menu.module.css'
+import Introduction from './Introduction'
 
 export default function Menu() {
     const [toggle, settoggle] = useState(false);
@@ -36,6 +37,14 @@ export default function Menu() {
                 </div>
             </div>
         </div>
+
+        <Introduction/>
+
+        
+        
+
+
+        
        
     </>
   )
