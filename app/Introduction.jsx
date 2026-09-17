@@ -6,7 +6,7 @@ export default function Introduction() {
         <div className={s.MmainContainer}>
             <div className={s.introductionContainer}>
                 <div className={s.introduction}>
-                    Hi, my name is <span className={s.Natnael}>NATNAEL</span> and I am a
+                    👋 Hi, my name is <span className={s.Natnael}>NATNAEL</span> and I am a
                 </div>
             </div>
             <div className={s.PicContainer}>

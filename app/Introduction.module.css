@@ -23,6 +23,7 @@
     font-weight: bold;
     font-style: italic;
     letter-spacing: 2px;
+    font-size: 25px;
 }
 
 /* Circle styling for the image */
@@ -100,9 +101,9 @@
   transition: transform 0.3s ease-in-out, background-color 0.3s ease;
 }
 .PicContainer:hover img {
-  transform: scale(1.05); /* Slight zoom in */
+  transform: scale(1.05); 
 }
 .PicContainer:hover .arrowBadge {
-  transform: translate(2px, -2px); /* Moves arrow slightly up and right */
+  transform: translate(2px, -2px); 
   background-color: #ffc26d; 
 }

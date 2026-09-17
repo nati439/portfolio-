@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import s from './Menu.module.css'
 import Introduction from './Introduction'
-
+import Student from './Student'
 export default function Menu() {
     const [toggle, settoggle] = useState(false);
   return (
@@ -27,6 +27,9 @@ export default function Menu() {
                         <div className={s.MiddleContainer}>
                             <div className={s.About}>About</div>
                             <div className={s.Contact}>Contact</div>
+                            <div className={s.Resume}>Resume</div>
+
+
                         </div>
                         <div className={s.lContainer}>
                             <div className={s.linkedIn}>
@@ -39,7 +42,7 @@ export default function Menu() {
         </div>
 
         <Introduction/>
-
+        <Student/>
         
         
 

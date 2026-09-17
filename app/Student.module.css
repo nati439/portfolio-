@@ -1,0 +1,90 @@
+/* Container Spacing */
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Giant Headline */
+.heroTitle {
+  font-size: clamp(3rem, 10vw, 7.5rem);
+  font-weight: 900;
+  line-height: 0.88;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  margin: 10px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.heroTitle span {
+  color: #f5ece5;
+}
+
+/* Outlined Text Effect */
+.outlinedText {
+  color: transparent !important;
+  -webkit-text-stroke: 2px #f5ece5;
+  text-stroke: 2px #f5ece5;
+}
+
+/* Location and Orange Highlight */
+.locationText {
+  color: white;
+  font-size: 1.1rem;
+  margin: 0;
+  font-weight: 500;
+}
+
+.locationHighlight {
+  color: #ff8c00;
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Subtext */
+.availabilityText {
+  color: #c5bbbb;
+  font-size: 0.85rem;
+  margin: 8px 0 25px 0;
+}
+
+/* Buttons Layout */
+.buttonGroup {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.primaryBtn,
+.secondaryBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.primaryBtn:hover,
+.secondaryBtn:hover {
+  transform: translateY(-2px);
+}
+
+.primaryBtn {
+  background-color: #ff8c00;
+  color: #000000;
+}
+
+.secondaryBtn {
+  background-color: #1a2826;
+  color: #ffffff;
+  border: 1px solid #2e403d;
+}

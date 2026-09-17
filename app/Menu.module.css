@@ -121,13 +121,13 @@
     width: 50vw;
 }
 
-@media (max-width: 805px) {
+@media (max-width: 1000px) {
     .hidden {
         display: none;
     }
 }
 
-@media (min-width: 805px) {
+@media (min-width: 1000px) {
     .x{
         display: none;
     }
@@ -159,7 +159,7 @@
     padding-right: 10px;
 }
 
-@media (max-width: 805px) {
+@media (max-width: 1000px) {
     .theMenuContainer {
         position: absolute;
         top: 140px;           /* sits just below the navbar */
@@ -216,13 +216,16 @@
      
 }
 
+.Resume{
+    margin-top: 30px;
+}
 .MiddleContainer{
     
     margin-right: 260px;
     
 }
 
-@media (max-width: 805px) {
+@media (max-width: 1000px) {
     .theMenuContainer.hidden {
         display: none !important;
     }
