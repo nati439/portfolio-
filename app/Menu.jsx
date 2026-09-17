@@ -18,32 +18,24 @@ export default function Menu() {
                         <div className={s.threeline} onClick={() => settoggle(!toggle)}>{toggle ?  null : <div>≡</div>}</div>
                         <div className={s.x} onClick={() => settoggle(!toggle)}>{toggle ? <div>X</div>: null}</div>
                     </div>
-                    {toggle ? 
-                        <div className={s.theMenuContainer}>    
-                            <div className={s.MiddleContainer}>
-                                <div className={s.About}> 
-                                    About
-                                </div>
-                                <div className={s.Contact}>
-                                    Contact
-                                </div>
-                            </div>
-                            <div className={s.lContainer}>
-                                <div className={s.linkedIn} >
-                                    <a href='https://www.linkedin.com/in/natnael-cherie-a293bb336/'>Linkedin</a>
-                                </div>
-                            </div>
-                        </div>: null
-                    }
-                    
-                   
 
 
-                </div>
-                    
-                  
+                    <div className={toggle ? s.theMenuContainer : `${s.theMenuContainer} ${s.hidden}`}>
+                        {/* the template literals is just giving two class names that it.  */}
+                        {/* Remeber our goal is so css can control what user sees. */}
+                        <div className={s.MiddleContainer}>
+                            <div className={s.About}>About</div>
+                            <div className={s.Contact}>Contact</div>
+                        </div>
+                        <div className={s.lContainer}>
+                            <div className={s.linkedIn}>
+                                <a href='https://www.linkedin.com/in/natnael-cherie-a293bb336/'>Linkedin</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
        
     </>
   )
