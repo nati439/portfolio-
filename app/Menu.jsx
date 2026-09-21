@@ -1,8 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import s from './Menu.module.css'
-import Introduction from './Introduction'
-import Student from './Student'
+
 export default function Menu() {
     const [toggle, settoggle] = useState(false);
   return (
@@ -41,9 +40,7 @@ export default function Menu() {
             </div>
         </div>
 
-        <Introduction/>
-        <Student/>
-        
+    
         
 
 

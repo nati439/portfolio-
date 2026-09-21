@@ -1,0 +1,68 @@
+
+
+
+/* Header Container Layout */
+.projectsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+  /* width: 100%; */
+  max-width: 1200px;
+  margin: 120px auto 50px auto;
+  padding: 0 24px;
+  padding-top: 100px;
+}
+
+/* Main Heading (H2) - Giant Tech Style */
+.sectionTitle {
+  font-size: clamp(3.2rem, 8vw, 6rem);
+  font-weight: 900;
+  line-height: 0.85;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* First Line Text: "PROJECTS I'VE" */
+.sectionTitle span:first-child {
+  color: #f5ece5;
+}
+
+/* Tech Accent Word: "BUILT." */
+.outlinedText {
+  background: linear-gradient(135deg, #ff8c00 0%, #ff5500 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -1px;
+}
+
+/* Right Side Tech Description */
+.sectionDescription {
+  max-width: 440px;
+  color: #a0a0a0;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-top: 10px;
+  border-left: 2px solid #ff8c00;
+  padding-left: 20px;
+ 
+}
+
+/* Responsive Behavior for Mobile */
+@media (max-width: 768px) {
+  .projectsHeader {
+    flex-direction: column;
+    gap: 24px;
+    margin: 80px auto 30px auto;
+  }
+
+  .sectionDescription {
+    border-left: none;
+    border-top: 2px solid #ff8c00;
+    padding-left: 0;
+    padding-top: 16px;
+  }
+}

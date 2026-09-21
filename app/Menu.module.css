@@ -225,6 +225,8 @@
     
 }
 
+
+
 @media (max-width: 1000px) {
     .theMenuContainer.hidden {
         display: none !important;
