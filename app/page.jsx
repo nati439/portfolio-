@@ -4,6 +4,7 @@ import Introduction from './Introduction'
 import Student from './Student'
 import Project from './Project'
 import TheProject from './TheProject'
+import About from './About'
 export default function Home() {
   return (
     <>
@@ -14,6 +15,7 @@ export default function Home() {
        <div className={s.blue}>
           <Project/>
           <TheProject/>
+          <About/>
        </div>
 
       </div>
