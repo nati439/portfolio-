@@ -5,6 +5,7 @@ import Student from './Student'
 import Project from './Project'
 import TheProject from './TheProject'
 import About from './About'
+import Tools from './Tools'
 export default function Home() {
   return (
     <>
@@ -16,6 +17,7 @@ export default function Home() {
           <Project/>
           <TheProject/>
           <About/>
+          <Tools/>
        </div>
 
       </div>
