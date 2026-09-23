@@ -184,6 +184,8 @@
         margin-left: -15;
         width: 100%;
         width: 300px;
+        margin-top: 30px;
+        margin-right: 10px;
     }
 
     .linkedIn a {
@@ -234,4 +236,8 @@
 
 }
 
+
+.About, .Projects, .Contact, .Resume, .Name, .linkedIn {
+  cursor: pointer;
+}
 

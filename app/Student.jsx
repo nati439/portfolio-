@@ -21,9 +21,7 @@ export default function Student() {
                 <a href="#projects" className={s.primaryBtn}>
                 View My Work ↓
                 </a>
-                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className={s.secondaryBtn}>
-                Resume 📄
-                </a>
+               
             </div>
         </div>
     </>
